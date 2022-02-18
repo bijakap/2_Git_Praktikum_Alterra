@@ -1,0 +1,8 @@
+### Apa Itu Version Control
+<p>Version Control merupakan suatu sistem yang berkerja dengan cara merekam perubahan-perubahan yang terjadi pada suatu project atau sekumpulan berkas dari waktu ke waktu, sehingga user yang menggunakan sistem ini dapat membuat dan melihat berbagai macam versi dari hasil yang dikerjakan. Version Control sendiri memunginkan user untuk mengembalikan (rollback) project ke versi sebelumnya, sehingga bila terjadi kesalahan atau terjadi isu dapat memudahkan user untuk memulihkannya. </p>
+
+### Dasar Git
+<p>Git merupakan salah satu sistem version control. Git menggunakan sistem distributed revision control, dimana penyimpanan data git tidak berada dalam satu tempat melainkan tiap orang yang terlibat dalam project akan menyimpan database git. Git bekerja dengan cara memantau setiap perubahan yang terjadi pada file project, Lalu memasukan informasi file atau projek user ke staging area (Git Add), setelah itu dilakukan commit yaitu mengambil berkas yang tercatat pada staging area lalu menyimpan pada repositori Git user (Git Commit And Git Push)</p>
+
+### Branch Management
+<p>Dalam Git Branch merupakan cabang-cabang dari repositori Git user, branch berguna untuk menghindari suatu konflik dalam pengkodean projek. Contoh kasus terdapat kedua anggota tim yang melakukan commit dengan pengkodean yang berbeda maka akan terjadi konflik sehingga dilakukan branching. branch secara umum memudahkan tim mengerjakan fitur lain tanpa mengganggu cabang master. Contoh kasus Si A mengerjakan fitur A lalu dilakukan penggabungan cabang A cabang ke cabang master (git merge).</p>
